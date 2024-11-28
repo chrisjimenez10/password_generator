@@ -14,11 +14,26 @@
         </div>
     </nav>
 
-    <div class="mt-[2.5rem] bg-purple-200 px-5">
-        <div class="text-textColor text-center">
-            <h1 class="text-6xl">Password Generator</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores expedita maxime harum voluptatibus suscipit eius totam labore ratione necessitatibus natus. Ea, officiis necessitatibus! Iusto, voluptates! Nulla, sunt optio. Minima, illo.</p>
+    <div class="flex flex-col items-center justify-center mt-[2.5rem] bg-blue-300 px-5">
+        <div class="text-center">
+            <h1 class="text-5xl">Password Generator</h1>
+            <h2 class="text-2xl">Instructions</h2>
+            <div class="">asdf</div>
         </div>
+    </div>
+    <div class="flex flex-col items-center justify-center bg-pink-300 px-5">
+        <form action="" class="flex flex-col gap-y-2 [&>input]:rounded-md">
+            <label for="letters">Number of Letters</label>
+            <input type="number" min="1" required id="letters">
+
+            <label for="numbers">Number of Integers</label>
+            <input type="number" min="1" required id="numbers">
+
+            <label for="symbols">Number of Symbols</label>
+            <input type="number" min="1" required id="symbols">
+
+            <button type="submit">+</button>
+        </form>
     </div>
 
 </body>
