@@ -2,3 +2,5 @@ node_modules
 package-lock.json
 
 dist/output.css
+dist/main.js
+dist/main.js.map
