@@ -1,5 +1,10 @@
+/* Google Font Import */
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
 
+/* Tailwind Directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
     scroll-behavior: smooth;
@@ -23,6 +28,7 @@
 }
 
 body {
+    /* NOTE: To allow elements to fill up the screen width and height, set margins and paddings to 0 */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
