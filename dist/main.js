@@ -12,7 +12,6 @@ localStorage.setItem("theme", theme);
 // Function to apply theme + Invoke 
 function applyTheme(){
     document.documentElement.setAttribute("data-theme", theme);
-    themeBtn.style.background = "rgba(235,235,235, 75%)";
 };
 applyTheme();
 
